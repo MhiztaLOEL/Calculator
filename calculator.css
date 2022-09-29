@@ -1,0 +1,36 @@
+#calculator_frame {
+    width: 25vw;
+    height: 60vh;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#calculator {
+    width: 20vw;
+    height: 56vh;
+    background-color: rg(248, 12, 12);
+    margin-left: 9.5%;
+}
+
+#screen {
+    width: 97.5%;
+    height: 10vh;
+    margin-top: 10%;
+    outline: none;
+    font-size: 20px;
+}
+
+.keypads {
+    margin-top: 10%;
+}
+
+.calc_btn {
+    width: 24%;
+    height: 6vh;
+}
+
+.calc_btn:hover {
+    background-color: coral;
+    color: white;
+    border: none;
+}
