@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator_frame">
+        <div id="calculator">
+            <input type="text" readonly id="screen" value="" placeholder="0" name="screen">
+
+            <div class="keypads">
+                <button onclick="keyNumbers(1)" class="calc_btn" >1</button>
+                <button onclick="keyNumbers(2)" class="calc_btn" >2</button>
+                <button onclick="keyNumbers(3)" class="calc_btn" >3</button>
+                <button onclick="keyNumbers(4)" class="calc_btn" >4</button>
+            </div>
+
+            <div class="keypads">
+                <button onclick="keyNumbers(5)" class="calc_btn" >5</button>
+                <button onclick="keyNumbers(6)" class="calc_btn" >6</button>
+                <button onclick="keyNumbers(7)" class="calc_btn" >7</button>
+                <button onclick="keyNumbers(8)" class="calc_btn" >8</button>
+            </div>
+
+            <div class="keypads">
+                <button onclick="keyNumbers(9)" class="calc_btn" >9</button>
+                <button onclick="keyNumbers(0)" class="calc_btn" >0</button>
+                <button onclick="keyNumbers('+')" class="calc_btn" >+</button>
+                <button onclick="keyNumbers('-')" class="calc_btn" >-</button>
+            </div>
+
+            <div class="keypads">
+                <button onclick="keyNumbers('*')" class="calc_btn" >x</button>
+                <button onclick="keyNumbers('/')" class="calc_btn" >/</button>
+                <button onclick="clearCalc()" class="calc_btn" >C</button>
+                <button onclick="calculate()" class="calc_btn" >=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
